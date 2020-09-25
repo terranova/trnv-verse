@@ -76,7 +76,8 @@ RUN install2.r --error \
     bs4Dash \
     here \
     shinycssloaders \
-    shinyWidgets
+    shinyWidgets \
+    reactable
 
 RUN installGithub.r \
     terranova/formattable \
