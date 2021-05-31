@@ -82,5 +82,6 @@ RUN install2.r --error \
 RUN installGithub.r \
     terranova/formattable \
     terranova/highcharter \
+    terranova/montila \
     curso-r/auth0 \
     && rm -rf /tmp/downloaded_packages/
